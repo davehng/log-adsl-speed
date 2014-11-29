@@ -28,3 +28,6 @@ Running:
 * Run getstats-tplink.sh. This should log into the router, pull down the status page, call the helper app to scrape the connection details from it and append the scraped data as CSV to values.csv.
 * If that works, set up a cron job to run this at your desired interval (mine's running every minute).
 
+Files:
+* src contains source files.
+* staging contains files for the script directory.
