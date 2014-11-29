@@ -16,11 +16,11 @@ Preparation:
 * Find cookies C0 (hash of username) and C1 (hash of password), and copy their values.
 * Create a cookies.txt file containing these cookies and save it in the script directory.
 
-...
+```bash
 # HTTP cookie file.
 [router ip address]	TRUE	/	FALSE	4102358400	C0	[C0 value]
 [router ip address]	TRUE	/	FALSE	4102358400	C1	[C1 value]
-...
+```
 
 * Change the IP address in the modempage variable in getstats-tplink.sh to point to your modem.
 
